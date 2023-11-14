@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.card {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  width: 600px;
+  border-radius: 15px;
+  border-width: 0px;
+}
+
+.counting {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.even-odd {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border-width: 0px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 450;
+}
+
+.text {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+}
